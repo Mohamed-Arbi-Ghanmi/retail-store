@@ -1,0 +1,5 @@
+Algorithme,TempsSecondes,Tache,Lecture
+Apriori,0.0848,Extraction des règles d'association,Plus rapide dans cette configuration réduite
+FP-Growth,0.9546,Extraction des règles d'association,"Plus scalable en principe, mais plus lent ici avec cette implémentation et ces paramètres"
+K-Means,0.8514,Segmentation RFM,Rapide pour produire des segments globaux
+DBSCAN,0.0998,Segmentation RFM,Dépend fortement de eps et min_samples
